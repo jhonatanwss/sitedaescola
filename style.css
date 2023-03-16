@@ -1,4 +1,21 @@
-body{
-    background-color: royalblue
+*{
+margin: 0;
+padding: 0;
 }
-.cabeçalho.imagem{width: 240;}
+
+.cabeçalho {
+    background-color: royalblue;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabeçalho.imagem{width: 60;}
+
+.cabeçalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 30px;
+}
