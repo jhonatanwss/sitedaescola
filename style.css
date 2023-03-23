@@ -4,12 +4,13 @@ padding: 0;
 }
 
 .cabeçalho {
-    background-color: royalblue;
-    color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 24px 0;
+    background-color:royalblue;
+    color: rgb(red, green, blue)
+   
 }
 
 .cabeçalho.imagem{width: 60;}
@@ -19,9 +20,20 @@ padding: 0;
     margin: 0 16px;
     font-size: 30px;
 }
-.Escola-imagem{
-    margin: 25%;
-    padding: auto;
-    width:25%;
+
+.imagem{ 
+
+    width:25%
+
+}
+
+.escola{
+display: flex;
+background-image:linear-gradient(royalblue, azure ) 
+
+}
+
+.escola-texto-um{
+
 
 }
