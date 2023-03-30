@@ -28,12 +28,17 @@ padding: 0;
 }
 
 .escola{
+background-image:linear-gradient(royalblue, azure ) ;
+color: white;
 display: flex;
-background-image:linear-gradient(royalblue, azure ) 
-
+justify-content: center;
+align-items: center;
+padding: 24px 0;
 }
 
-.escola-texto-um{
-
-
+.escola-div-conteudo{
+    padding: 24px 0;
+}
+.escola-titulo{
+    padding:24px 0
 }
