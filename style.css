@@ -13,7 +13,12 @@ padding: 0;
    
 }
 
-.cabeçalho.imagem{width: 60;}
+.Cabeçalho-imagem { 
+    
+    
+    width: 18%;
+    
+    }
 
 .cabeçalho-lista-item{
     display: inline-block;
@@ -22,9 +27,9 @@ padding: 0;
 }
 
 .imagem{ 
-
-    width:25%
-
+    
+    width:20%
+    
 }
 
 .escola{
@@ -37,7 +42,7 @@ padding: 24px 0;
 }
 
 .escola-div-conteudo{
-    padding: 24px 0;
+    width: 35%;
 }
 .escola-titulo{
     padding:24px 0
