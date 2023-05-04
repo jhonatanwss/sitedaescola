@@ -3,6 +3,7 @@ margin: 0;
 padding: 0;
 }
 
+
 .cabeçalho {
     display: flex;
     justify-content: space-around;
@@ -13,12 +14,6 @@ padding: 0;
    
 }
 
-.Cabeçalho-imagem { 
-    
-    
-    width: 18%;
-    
-    }
 
 .cabeçalho-lista-item{
     display: inline-block;
@@ -26,14 +21,13 @@ padding: 0;
     font-size: 30px;
 }
 
-.imagem{ 
-    
-    width:20%
-    
+.imagem{
+
+    width: 15%
 }
 
 .escola{
-background-image:linear-gradient(royalblue, azure ) ;
+background-image:linear-gradient(royalblue, rgb(0, 4, 4) ) ;
 color: white;
 display: flex;
 justify-content: center;
@@ -42,8 +36,25 @@ padding: 24px 0;
 }
 
 .escola-div-conteudo{
-    width: 35%;
+
+    padding: 24px 0;
+
 }
 .escola-titulo{
-    padding:24px 0
+
+    padding: 30px
+
 }
+
+.estudante-div{
+
+    text-align: center;
+}
+
+.estudante-nome{
+
+   font-size: 25px;
+}
+
+
+
